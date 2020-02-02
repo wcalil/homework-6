@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="row firstRow">
+
+            <h1>Weather Dashboard</h1>
+
+        </div>
+
+        <div class="row mainRowStyle">
+
+            <div class="col-md-3" id="searchSection">
+
+                <div>
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" id="cityInput" placeholder="Search for Cities">
+
+                        <div class="input-group-append">
+                            <button class="input-group-text" id="basic-addon2">Search</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div><br></div>
+
+                <div>
+
+                    <ul class="list-group" id="listOfCities">
+                        <li class="list-group-item">New York</li>
+                        <li class="list-group-item">London</li>
+                        <li class="list-group-item">Shangai</li>
+                        <li class="list-group-item">São Paulo</li>
+                        <li class="list-group-item">Mexico City</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-9" id="forecastSection">
+
+                <div class="row weatherRow">
+                    <div class="col-md-4" id="cityCard">
+                    </div>
+                    <div class="col-md-4" id="weatherIcon">
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+
+                <div class="row forecastRow" id="forecastSet">
+                    <div class="col-md-1"> </div>
+                    <div class="col-md-2 column5">
+ 
+                    </div>
+                    <div class="col-md-2 column13">
+                   
+                    </div>
+                    <div class="col-md-2 column21">
+             
+                    </div>
+                    <div class="col-md-2 column29">
+             
+                    </div>
+                    <div class="col-md-2 column37">
+              
+                    </div>
+                    <div class="col-md-1"> </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
