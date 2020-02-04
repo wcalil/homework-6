@@ -8,12 +8,18 @@ body{
 }
 
  /* First Row */
+.row{
+margin-right:0px;
+margin-left:0px;
 
+}
+ 
  .firstRow{
     justify-content: center;
     background-color: rgb(2, 90, 90);
     color: white;
     padding:1.5%;
+    width:100%;
  }
 
  h1{
@@ -92,4 +98,52 @@ body{
   margin-top: 2%;
 }
 
+@media only screen and (max-width: 800px) {
 
+h1{
+margin:5%;
+
+}
+
+.cardBody{
+margin: 1%;
+font-size: 15px;
+padding:5%;
+
+}
+
+.weatherRow{
+    margin: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    height: 80vh;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+ 
+}
+
+#searchSection{
+    background-color: white;
+    padding:1%;
+    height: auto;
+}
+
+.form-control {
+    height:calc(2.5em + .75rem + 2px)
+ }
+
+ul{
+margin:5%;
+}
+
+#cityInput{
+    margin-left:21px;
+}
+
+.input-group-text{
+    margin-right:21px;
+}
+
+}

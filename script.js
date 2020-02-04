@@ -11,17 +11,21 @@ function renderForecast() {
     cities.push(cityInput);
     console.log(JSON.stringify(cities))
 
+    $("#listOfCities").localStorage.getItem("listOfCities");\
+
     function renderCityButtons() {
 
         // Loops through the array of cities
         for (var i = 0; i < cities.length; i++) {
-
+        
+        
         var listOfCities = $("<li>");
         listOfCities.addClass("list-group-item");
         listOfCities.attr("data-name", cities[i]);
         listOfCities.text(cities[i]);
         $("#listOfCities").append(listOfCities);
         localStorage.setItem("listOfCities", JSON.stringify(cities))
+    
        
 
         }
@@ -29,7 +33,7 @@ function renderForecast() {
     }
 
     $("#listOfCities").empty()
-    // $("#listOfCities").localStorage.getItem("listOfCities");
+
     renderCityButtons()
   
 
