@@ -76,7 +76,6 @@ margin-left:0px;
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    /* height: 25vh; */
     padding: 1%;
 }
 
@@ -88,7 +87,7 @@ margin-left:0px;
     height: 20vh;
     border-style: solid;
     border-width: 2px;
-    border-color: lightgray;
+    border-color: lightgray;`
 }
 
 .bigIcon{
@@ -121,7 +120,7 @@ padding:5%;
     background-color: white;
     font-weight: bold;
     font-size: 20px;
- 
+    
 }
 
 #searchSection{
