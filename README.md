@@ -2,6 +2,9 @@
 
 The app was created for those who travel a lot and need to know the forecasts for the next days to get ready for the weather in the city destination.
 
+##Link
+https://wcalil.github.io/homework-5/
+
 ## Development
 
 The app pulls data from OpenWeatherMap API. This data refers to the current day and 5-day forecast. To render the weather information, an event listener was used. Every time the user inputs the name of the city in the input field, the ajax function pulls information from the API using the URL, the API key, and the name of the city.
