@@ -3,7 +3,7 @@
 The app was created for those who travel a lot and need to know the forecasts for the next days to get ready for the weather in the city destination.
 
 ##Link
-https://wcalil.github.io/homework-5/
+https://wcalil.github.io/homework-6/
 
 ## Development
 
